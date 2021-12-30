@@ -27,6 +27,7 @@ module EX (
                 default: begin
                     logicout <= `ZeroWord;
                 end
+            endcase
         end // if
     end // always
 

@@ -3,7 +3,7 @@ module  ID_EX(
     input wire          rst,
 
     input wire[`AluOpBus]           ID_ALUOp,
-    input wire[`ALUSelBus]          ID_ALUSel,
+    input wire[`AluSelBus]          ID_ALUSel,
     input wire[`RegBus]             id_reg1,
     input wire[`RegBus]             id_reg2,
     input wire[`RegAddrBus]         id_wd,
