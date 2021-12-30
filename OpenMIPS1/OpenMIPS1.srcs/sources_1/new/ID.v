@@ -37,7 +37,7 @@ module ID(
             ALUOp_o     <= `EXE_NOP_OP;
             ALUSel_o    <= `EXE_RES_NOP;
             wd_o        <= `NOPRegAddr;
-            rwreg_o     <= `WriteDisable;
+            wreg_o     <= `WriteDisable;
             instvalid   <= `InstValid;
             reg1_read_o <= 1'b0;
             reg2_read_o <= 1'b0;
@@ -48,7 +48,7 @@ module ID(
             ALUOp_o     <= `EXE_NOP_OP;
             ALUSel_o    <= `EXE_RES_NOP;
             wd_o        <= Inst_i[15:11];   // destniation
-            rwreg_o     <= `WriteDisable;
+            wreg_o     <= `WriteDisable;
             instvalid   <= `InstValid;
             reg1_read_o <= 1'b0;
             reg2_read_o <= 1'b0;
