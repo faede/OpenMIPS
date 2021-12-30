@@ -14,7 +14,7 @@ module  ID_EX(
     output reg[`AluSelBus]          EX_ALUSel,
     output reg[`RegBus]             ex_reg1,
     output reg[`RegBus]             ex_reg2,
-    output reg[`RegBus]             ex_wd,
+    output reg[`RegAddrBus]         ex_wd,
     output reg                      ex_wreg
 );
     always @(posedge clk) begin

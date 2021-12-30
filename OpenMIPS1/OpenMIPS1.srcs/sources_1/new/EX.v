@@ -5,7 +5,7 @@ module EX (
     input wire[`AluSelBus]      ALUSel_i,       // cac type
     input wire[`RegBus]         reg1_i,
     input wire[`RegBus]         reg2_i,
-    input wire[`RegBus]         wd_i,           // write reg address
+    input wire[`RegAddrBus]     wd_i,           // write reg address
     input wire                  wreg_i,         // whether write reg
 
     output reg[`RegAddrBus]     wd_o,           // write reg address
