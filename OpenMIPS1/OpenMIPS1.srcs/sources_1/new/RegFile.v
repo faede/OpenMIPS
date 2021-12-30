@@ -31,6 +31,8 @@ module RegFile(
         end
     end
 
+
+    // using combine logic
     // read port 1
     always @(*) begin
         if(rst == `RstEnable)begin
